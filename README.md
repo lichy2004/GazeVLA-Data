@@ -67,7 +67,7 @@ python examples/vis.py
 
 The following features are planned for future implementation:
 
-- ✅ EgoDex
+- [x] EgoDex
 - [ ] HOT3D
 - [ ] HoloAssist
 - [ ] OAKINK2
@@ -82,7 +82,7 @@ The following features are planned for future implementation:
 
 ##  🙏 Acknowledgements
 
-Our code is built upon [Openpi](https://github.com/Physical-Intelligence/openpi) and [GraspVLA](https://github.com/PKU-EPIC/GraspVLA). These code serve as an essential foundation for our implementation, and we deeply appreciate the time, effort, and expertise they shared with the community.
+Our visualization code is built upon [Viser](https://viser.studio/main/) and our data processing scripts refer to the official code of each dataset.. These code serve as an essential foundation for our implementation, and we deeply appreciate the time, effort, and expertise they shared with the community.
 
 ## ✍️ Citation
 
