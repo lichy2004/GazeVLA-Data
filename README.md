@@ -67,7 +67,7 @@ python examples/vis.py
 
 The following features are planned for future implementation:
 
-- [√] EgoDex
+- ✅ EgoDex
 - [ ] HOT3D
 - [ ] HoloAssist
 - [ ] OAKINK2
