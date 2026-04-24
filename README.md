@@ -4,14 +4,13 @@
 
 [![arXiv](https://img.shields.io/badge/arXiv-Paper-red?style=flat&logo=arxiv&logoColor=white)]()
 [![Project Page](https://img.shields.io/badge/Project%20Page-Website-yellow?style=flat&logo=googlechrome&logoColor=white)](https://gazevla.github.io/)
-[![Data](https://img.shields.io/badge/Data-Dataset-green?style=flat&logo=databricks&logoColor=white)]()
+[![Video YouTube](https://img.shields.io/badge/Video-YouTube-FF0000?style=flat&logo=youtube&logoColor=white)](https://youtu.be/a1-jS9uWwAI)
+[![Code](https://img.shields.io/badge/Code-GitHub-black?style=flat&logo=github&logoColor=white)](https://github.com/lichy2004/GazeVLA)
 [![License](https://img.shields.io/badge/License-MIT-blue?style=flat&logo=opensourceinitiative&logoColor=white)](./LICENSE)
 
 </div>
 
 </details>
-
----
 
 ![](figures/dataset.jpg)
 This is the human data processing script used in the GazeVLA paper. It supports hand motion alignment and 2D & 3D visualization for egocentric human datasets, and additionally integrates latest datasets including xperience-10m, VITRA, and EgoScale. All data has been standardized and unified into a consistent format, aiming to contribute to the research community.
@@ -22,8 +21,6 @@ This is the human data processing script used in the GazeVLA paper. It supports 
 - [💡 Example](#-example)
 - [🙏 Acknowledgements](#-acknowledgements)
 - [✍️ Citation](#️-citation)
-
----
 
 
 ## 🛠 Environment Setup
