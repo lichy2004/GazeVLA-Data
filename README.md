@@ -39,33 +39,36 @@ conda activate gazevla_data
 
 # Install requirements
 pip install -r requirements.txt
+
+# You can try installing PyTorch3D using the following method
+wget https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud/pytorch3d/linux-64/pytorch3d-0.7.5-py38_cu117_pyt201.tar.bz2
+conda install -y --use-local ./pytorch3d-0.7.5-py38_cu117_pyt201.tar.bz2
 ```
+
+### Step3: Download MANO model
+Hand annotations in the MANO format can be downloaded after accepting their [license agreement](https://mano.is.tue.mpg.de/).
+
+We requires the `MANO_RIGHT.pkl` and `MANO_LEFT.pkl` files for loading and rendering of hand poses. These files can be obtained from the `mano_v1_2.zip` file located in the "Models & Code" section of the `MANO` website. After downloading, extract the zip file to your local disk, and the `*.pkl` files can be found at the following path: `assets/mano_v1_2/models`.
 
 ## 💡 Example
-Each dataset includes three components: downloading, processing, and visualization. Here we take the EgoDex dataset as an example.
+Each dataset must first be downloaded from the official website with the correct file structure. Refer to [DATA.md](./DATA.md) for instructions on downloading datasets and organizing the data. An example of data processing and visualization is shown below.
 
-### downloading
 ```bash
-cd data/EgoDex/download
-bash download.sh
-```
-
-### processing
-```bash
+# processing
 python src/dataset/EgoDex.py
+
+# visualize
+python examples/vis.py --file_path data/EgoDex/processed/00000000.hdf5
 ```
 
-### visualization
-```bash
-python examples/vis.py
-```
+
 
 ## TODO
 
 The following features are planned for future implementation:
 
 - [x] EgoDex
-- [ ] HOT3D
+- [x] HOT3D
 - [ ] HoloAssist
 - [ ] OAKINK2
 - [ ] TACO

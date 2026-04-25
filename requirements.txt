@@ -1,0 +1,11 @@
+numpy==1.23.5
+opencv-python
+h5py
+scipy
+tqdm
+viser
+smplx
+joblib
+torch
+pytorch3d
+chumpy
