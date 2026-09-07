@@ -2,6 +2,8 @@
 
 <div align="center">
 
+This is the official data processing repository for "[GazeVLA: Learning Human Intention for Robotic Manipulation](https://arxiv.org/abs/2604.22615)," accepted at the 2026 Conference on Robot Learning (CoRL).
+
 [![arXiv](https://img.shields.io/badge/arXiv-Paper-red?style=flat&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2604.22615)
 [![Project Page](https://img.shields.io/badge/Project%20Page-Website-yellow?style=flat&logo=googlechrome&logoColor=white)](https://gazevla.github.io/)
 [![Video YouTube](https://img.shields.io/badge/Video-YouTube-FF0000?style=flat&logo=youtube&logoColor=white)](https://youtu.be/a1-jS9uWwAI)
